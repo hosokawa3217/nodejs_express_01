@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="top_page.css">
+    <title>テスト</title>
+</head>
+<body>
+    <h1>ToDoアプリ</h1>
+    <h2>買い物リスト</h2>
+    <form action="/addition" method="post">
+        <input type="text" name="name">
+        <input type="submit" value="追加">
+    </form>
+    <ul>
+        <% items.forEach((item) => { %>
+        <li>
+            <span><%= item.id %></span>
+            <span><%= item.name %></span>
+        </li>
+        <% }) %>
+    </ul>
+</body>
+</html>
