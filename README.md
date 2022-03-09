@@ -1,8 +1,8 @@
 # nodejs_express_sample
 
-node.js+express+ ejs + mysql   の シンプルなサンプルプロジェクト
+node.js+express+ ejs + sqlite3   の シンプルなサンプルプロジェクト
 
-npm install express ejs mysql
+npm install express ejs sqlite3
 
 ### SQLiteダウンロード
 https://www.sqlite.org/download.html
